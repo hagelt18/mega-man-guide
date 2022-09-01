@@ -1,11 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { Home } from './src/areas/home/home';
+import { AppContextProvider } from './src/common/context.ts/app-context';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <AppContextProvider>
+        <Home />
+      </AppContextProvider>
     </View>
   );
 }
