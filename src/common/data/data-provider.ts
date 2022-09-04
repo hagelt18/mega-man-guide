@@ -1,4 +1,4 @@
-import games from './game-data';
+import games from './game-list';
 
 export const getGames = () => {
   return games;
