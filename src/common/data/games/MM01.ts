@@ -8,7 +8,7 @@ const game: Game = {
   "bosses": [
     {
       "name": "Cut Man",
-      "weaponDrop": "Rolling Cutter",
+      "weaponDrop": WeaponNames_MM1.RollingCutter,
       "weaponEffectiveness": [
         { "weapon": WeaponNames_MM1.MegaBuster, "damage": 3 },
         { "weapon": WeaponNames_MM1.RollingCutter, "damage": 1 },
@@ -23,7 +23,7 @@ const game: Game = {
     },
     {
       "name": "Guts Man",
-      "weaponDrop": "Super Arm",
+      "weaponDrop": WeaponNames_MM1.SuperArm,
       "weaponEffectiveness": [
         { "weapon": WeaponNames_MM1.MegaBuster, "damage": 2 },
         { "weapon": WeaponNames_MM1.RollingCutter, "damage": 1 },
@@ -38,7 +38,7 @@ const game: Game = {
     },
     {
       "name": "Ice Man",
-      "weaponDrop": "Ice Slasher",
+      "weaponDrop": WeaponNames_MM1.IceSlasher,
       "weaponEffectiveness": [
         { "weapon": WeaponNames_MM1.MegaBuster, "damage": 1 },
         { "weapon": WeaponNames_MM1.RollingCutter, "damage": 2 },
@@ -53,7 +53,7 @@ const game: Game = {
     },
     {
       "name": "Bomb Man",
-      "weaponDrop": "Hyper Bomb",
+      "weaponDrop": WeaponNames_MM1.HyperBomb,
       "weaponEffectiveness": [
         { "weapon": WeaponNames_MM1.MegaBuster, "damage": 2 },
         { "weapon": WeaponNames_MM1.RollingCutter, "damage": 2 },
@@ -68,7 +68,7 @@ const game: Game = {
     },
     {
       "name": "Fire Man",
-      "weaponDrop": "Fire Storm",
+      "weaponDrop": WeaponNames_MM1.FireStorm,
       "weaponEffectiveness": [
         { "weapon": WeaponNames_MM1.MegaBuster, "damage": 2 },
         { "weapon": WeaponNames_MM1.RollingCutter, "damage": 2 },
@@ -83,7 +83,7 @@ const game: Game = {
     },
     {
       "name": "Elec Man",
-      "weaponDrop": "Thunder Beam",
+      "weaponDrop": WeaponNames_MM1.ThunderBeam,
       "weaponEffectiveness": [
         { "weapon": WeaponNames_MM1.MegaBuster, "damage": 1 },
         { "weapon": WeaponNames_MM1.RollingCutter, "damage": 10 },
