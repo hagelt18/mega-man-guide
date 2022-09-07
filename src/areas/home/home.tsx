@@ -1,6 +1,6 @@
 import { Game } from '@src/common/types/types';
 import React from 'react';
-import { Text, View, Image, Button, StyleSheet, TouchableOpacity, Alert } from 'react-native';
+import { Text, View, Image, StyleSheet, TouchableOpacity } from 'react-native';
 import { useAppContext } from '../../common/context/app-context';
 
 export const Home = () => {
