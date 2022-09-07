@@ -1,5 +1,4 @@
-import React, { useState, useContext, useEffect } from 'react';
-import { createContext } from 'React';
+import React, { useState, useContext, useEffect, createContext } from 'react';
 import { getGames } from '../data/data-provider';
 import { AppContextData, Game } from '../types/types';
 import { Text } from 'react-native';
