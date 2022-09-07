@@ -11,7 +11,7 @@ export const Home = () => {
 
 
   const styles = StyleSheet.create({
-    titleImage: {
+    headingImg: {
       width: '220px',
       height: '160px',
       resizeMode: 'contain',
@@ -36,11 +36,16 @@ export const Home = () => {
 
   return (
     <View>
-      <Image style={styles.titleImage} source={require(`../../../assets/images/mega-man-guide-heading.png`)} />
+      <Image
+        testID={'heading-img'}
+        style={styles.headingImg}
+        source={require(`../../../assets/images/mega-man-guide-heading.png`)}
+      />
       <View style={styles.gameListContainer}>
         {appContextData?.games?.map(g => {
           return (
             <TouchableOpacity
+              testID='game-selection-tile'
               style={styles.gameTile} key={g.id}
               onPress={(event: any) => handleGameSelected(g)}>
               <Image source={require(`../../../assets/images/game-images/${g.id}_cover.jpg`)} style={styles.gameTileImg}></Image>
