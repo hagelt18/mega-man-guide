@@ -4,7 +4,7 @@ import { getGames } from '../data/data-provider';
 import { AppContextData, Game } from '../types/types';
 import { Text } from 'react-native';
 
-const AppContext = createContext<AppContextData>({});
+export const AppContext = createContext<AppContextData>({});
 
 export const useAppContext = () => {
   const context = useContext(AppContext);
