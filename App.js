@@ -1,7 +1,6 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import { Home } from './src/areas/home/home';
-import { AppContextProvider } from './src/common/context.ts/app-context';
+import { AppContextProvider } from './src/common/context/app-context';
 
 export default function App() {
   return (
