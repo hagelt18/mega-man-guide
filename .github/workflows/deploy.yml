@@ -1,28 +1,15 @@
 on:
-  pull_request:
   push:
     branches: master
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: 🏗 Setup repo
-        uses: actions/checkout@v2
+      - name: 🔨 Build and Test
+        uses: ./.github/workflows/build.yml
 
-      - name: 🏗 Setup Node
-        uses: actions/setup-node@v2
-        with:
-          node-version: 16.x
+      - name: 🏗 Export web files
+        run: expo export:web
 
-      - name: 🏗 Setup Expo and EAS
-        uses: expo/expo-github-action@v7
-        with:
-          expo-version: latest
-          eas-version: latest
-          token: ${{ secrets.EXPO_TOKEN }}
-
-      - name: 📦 Install dependencies
-        run: npm install
-      
-      - name: 🕵️‍♀️ Run Unit Tests
-        run: npm test
+      - name: 🚀 Deploy to Github Pages
+        run: gh-pages -d web-build
