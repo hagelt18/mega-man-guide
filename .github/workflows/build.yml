@@ -1,3 +1,4 @@
+name: 'Build and run unit tests'
 on:
   pull_request:
   workflow_call:
