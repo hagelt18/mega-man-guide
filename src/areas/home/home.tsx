@@ -4,6 +4,7 @@ import { Text, View, Image, StyleSheet, TouchableOpacity } from 'react-native';
 import { useAppContext } from '../../common/context/app-context';
 
 export const Home = () => {
+  console.log('TESTING CI/CD - GH Actions v2!');
   const appContextData = useAppContext();
   const handleGameSelected = (game: Game) => {
     console.log(game.title + ' selected');
