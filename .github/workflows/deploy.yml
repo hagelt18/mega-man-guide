@@ -10,9 +10,10 @@ jobs:
     steps:
       - name: grr
         run: echo "grrrr"
-
+  testjob2:
+    uses: "./.github/workflows/build.yml"
   deploy:
-    needs: testjob1
+    needs: [testjob1, testjob2]
     runs-on: ubuntu-latest
     steps:
       - name: 🏗 Export web files
