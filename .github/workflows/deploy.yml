@@ -6,12 +6,11 @@ on:
     types: [labeled]
 jobs:
   build:
-    if: ${{ github.event.label.name == 'deploy' }}
     runs-on: ubuntu-latest
     uses: ./.github/workflows/build.yml
+
   deploy:
-    needs: build
-    if: ${{ github.event.label.name == 'deploy' }}    
+    needs: build  
     runs-on: ubuntu-latest
     steps:
       - name: 🏗 Export web files
