@@ -9,8 +9,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "predeploy": "expo export:web",
-    "deploy": "gh-pages -d web-build"
+    "build:web": "expo export:web",
+    "deploy": "gh-pages -d web-build -u \"github-actions-bot <support+actions@github.com>\""
   },
   "dependencies": {
     "expo": "~46.0.9",

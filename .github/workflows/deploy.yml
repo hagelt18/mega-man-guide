@@ -21,11 +21,18 @@ jobs:
           eas-version: latest
           token: ${{ secrets.EXPO_TOKEN }}
 
+      - name: 🏭 install global expo
+        run: npm install expo -g
+
       - name: 🏭 Install dependencies
         run: npm install
 
       - name: 🎁 Export web files
-        run: expo export:web
+        run: npm run build:web
 
       - name: 🚀 Deploy to Github Pages
-        run: gh-pages -d web-build
+        run: |
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/hagelt18/mega-man-guide.git
+          npm run deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
