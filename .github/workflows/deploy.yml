@@ -5,10 +5,20 @@ on:
   pull_request:
     types: [labeled]
 jobs:
-  deploy:
+  build:
     if: ${{ github.event.label.name == 'deploy' }}
     runs-on: ubuntu-latest
     uses: ./.github/workflows/build.yml
+    steps:
+      - name: 🏗 Export web files
+        run: expo export:web
+
+      - name: 🚀 Deploy to Github Pages
+        run: gh-pages -d web-build
+  deploy:
+    needs: build;
+    if: ${{ github.event.label.name == 'deploy' }}    
+    runs-on: ubuntu-latest
     steps:
       - name: 🏗 Export web files
         run: expo export:web
