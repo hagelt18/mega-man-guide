@@ -38,6 +38,8 @@ jobs:
       #     git config --local user.name "GitHub Action"
 
       - name: 🚀 Deploy to Github Pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         # env:
         #   GIT_USER: ${{ secrets.GH_PAGES_USER }}
         #   GIT_PASS: ${{ secrets.GITHUB_TOKEN }}
