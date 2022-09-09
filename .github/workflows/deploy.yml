@@ -2,8 +2,11 @@ name: "Deploy to github pages"
 on:
   push:
     branches: master
+  pull_request:
+    types: [labeled]
 jobs:
   deploy:
+    if: ${{ github.event.label.name == 'deploy' }}
     runs-on: ubuntu-latest
     steps:
       - name: 🔨 Build and Test
