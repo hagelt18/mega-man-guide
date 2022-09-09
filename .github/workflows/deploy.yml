@@ -33,11 +33,12 @@ jobs:
 
       - name: 🔑 Setup github config
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/hagelt18/mega-man-guide.git
+      #     git config --local user.email "action@github.com"
+      #     git config --local user.name "GitHub Action"
 
       - name: 🚀 Deploy to Github Pages
-        env:
-          GIT_USER: ${{ secrets.GH_PAGES_USER }}
-          GIT_PASS: ${{ secrets.GITHUB_TOKEN }}
+        # env:
+        #   GIT_USER: ${{ secrets.GH_PAGES_USER }}
+        #   GIT_PASS: ${{ secrets.GITHUB_TOKEN }}
         run: npm run deploy

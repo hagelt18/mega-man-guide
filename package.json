@@ -10,7 +10,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "build:web": "expo export:web",
-    "deploy": "gh-pages -d web-build"
+    "deploy": "gh-pages -d web-build -u \"github-actions-bot <support+actions@github.com>\""
   },
   "dependencies": {
     "expo": "~46.0.9",
