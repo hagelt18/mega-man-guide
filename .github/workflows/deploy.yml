@@ -31,5 +31,10 @@ jobs:
       - name: 🎁 Export web files
         run: npm run build:web
 
+      - name: 🔑 Setup github config
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+
       - name: 🚀 Deploy to Github Pages
         run: npm run deploy
