@@ -5,7 +5,14 @@ on:
   pull_request:
     types: [labeled]
 jobs:
+  testjob1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: grr
+        run: echo "grrrr"
+
   deploy:
+    needs: testjob1
     runs-on: ubuntu-latest
     steps:
       - name: 🏗 Export web files
