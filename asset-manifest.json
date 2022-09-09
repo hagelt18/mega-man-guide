@@ -1,7 +1,7 @@
 {
   "files": {
-    "app.js": "/mega-man-guide/static/js/app.7e6aeffb.chunk.js",
-    "app.js.map": "/mega-man-guide/static/js/app.7e6aeffb.chunk.js.map",
+    "app.js": "/mega-man-guide/static/js/app.7c27c6c7.chunk.js",
+    "app.js.map": "/mega-man-guide/static/js/app.7c27c6c7.chunk.js.map",
     "runtime~app.js": "/mega-man-guide/static/js/runtime~app.bffe6fcf.js",
     "runtime~app.js.map": "/mega-man-guide/static/js/runtime~app.bffe6fcf.js.map",
     "static/js/2.13f4f60d.chunk.js": "/mega-man-guide/static/js/2.13f4f60d.chunk.js",
@@ -24,6 +24,6 @@
   "entrypoints": [
     "static/js/runtime~app.bffe6fcf.js",
     "static/js/2.13f4f60d.chunk.js",
-    "static/js/app.7e6aeffb.chunk.js"
+    "static/js/app.7c27c6c7.chunk.js"
   ]
 }
