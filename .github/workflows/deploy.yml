@@ -22,6 +22,9 @@ jobs:
           eas-version: latest
           token: ${{ secrets.EXPO_TOKEN }}
 
+      - name: 🏭 install global expo
+        run: npm install expo -g
+
       - name: 🏭 Install dependencies
         run: npm install
 
