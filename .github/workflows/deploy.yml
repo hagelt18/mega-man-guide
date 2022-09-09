@@ -31,16 +31,9 @@ jobs:
       - name: 🎁 Export web files
         run: npm run build:web
 
-      - name: 🔑 Setup github config
+      - name: 🚀 Deploy to Github Pages
         run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/hagelt18/mega-man-guide.git
-      #     git config --local user.email "action@github.com"
-      #     git config --local user.name "GitHub Action"
-
-      - name: 🚀 Deploy to Github Pages
+          npm run deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        # env:
-        #   GIT_USER: ${{ secrets.GH_PAGES_USER }}
-        #   GIT_PASS: ${{ secrets.GITHUB_TOKEN }}
-        run: npm run deploy
