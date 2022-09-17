@@ -29,5 +29,29 @@ export enum WeaponNames_MM1 {
   IceSlasher = "Ice Slasher",
   HyperBomb = "Hyper Bomb",
   FireStorm = "Fire Storm",
-  ThunderBeam = "Thunder Beam",
+  ThunderBeam = "Thunder Beam"
+}
+
+export enum WeaponNames_MM2 {
+  MegaBuster = "Mega Buster",
+  MetalBlade = "Metal Blade",
+  AirShooter = "Air Shooter",
+  BubbleLead = "Bubble Lead",
+  QuickBoomerang = "Quick Boomerang",
+  CrashBomber = "Crash Bomber",
+  TimeStopper = "Time Stopper",
+  AtomicFire = "Atomic Fire",
+  LeafShield = "Leaf Shield"
+}
+
+export enum WeaponNames_MM3 {
+  MegaBuster = "Mega Buster",
+  NeedleCannon = "Needle Cannon",
+  MagnetMissile = "Magnet Missile",
+  GeminiLaser = "Gemini Laser",
+  HardKnuckle = "Hard Knuckle",
+  TopSpin = "Top Spin",
+  SearchSnake = "Search Snake",
+  SparkShock = "Spark Shock",
+  ShadowBlade = "Shadow Blade"
 }

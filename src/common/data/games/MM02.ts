@@ -1,4 +1,4 @@
-import { GameID, Platform, WeaponNames_MM1 } from '../../types/enums';
+import { GameID, Platform, WeaponNames_MM2 } from '../../types/enums';
 import { Game } from '../../types/types';
 
 const game: Game = {
@@ -7,109 +7,161 @@ const game: Game = {
   "platforms": [Platform.NES],
   "bosses": [
     {
-      "name": "Cut Man",
-      "weaponDrop": WeaponNames_MM1.RollingCutter,
+      "name": "Metal Man",
+      "weaponDrop": WeaponNames_MM2.MetalBlade,
       "weaponEffectiveness": [
-        { "weapon": WeaponNames_MM1.MegaBuster, "damage": 3 },
-        { "weapon": WeaponNames_MM1.RollingCutter, "damage": 1 },
-        { "weapon": WeaponNames_MM1.SuperArm, "damage": 14 },
-        { "weapon": WeaponNames_MM1.IceSlasher, "damage": 3 },
-        { "weapon": WeaponNames_MM1.HyperBomb, "damage": 3 },
-        { "weapon": WeaponNames_MM1.FireStorm, "damage": 3 },
-        { "weapon": WeaponNames_MM1.ThunderBeam, "damage": 3 }
+        { "weapon": WeaponNames_MM2.MegaBuster, "damage": "2" },
+        { "weapon": WeaponNames_MM2.MetalBlade, "damage": "28" },
+        { "weapon": WeaponNames_MM2.AirShooter, "damage": "0" },
+        { "weapon": WeaponNames_MM2.BubbleLead, "damage": "0" },
+        { "weapon": WeaponNames_MM2.QuickBoomerang, "damage": "8" },
+        { "weapon": WeaponNames_MM2.CrashBomber, "damage": "0" },
+        { "weapon": WeaponNames_MM2.TimeStopper, "damage": "0" },
+        { "weapon": WeaponNames_MM2.AtomicFire, "damage": "2, 6, 8" },
+        { "weapon": WeaponNames_MM2.LeafShield, "damage": "0" }
       ],
       "strategy": "",
       "stage": { "strategy": "" }
     },
     {
-      "name": "Guts Man",
-      "weaponDrop": WeaponNames_MM1.SuperArm,
+      "name": "Air Man",
+      "weaponDrop": WeaponNames_MM2.AirShooter,
       "weaponEffectiveness": [
-        { "weapon": WeaponNames_MM1.MegaBuster, "damage": 2 },
-        { "weapon": WeaponNames_MM1.RollingCutter, "damage": 1 },
-        { "weapon": WeaponNames_MM1.SuperArm, "damage": 1 },
-        { "weapon": WeaponNames_MM1.IceSlasher, "damage": 0 },
-        { "weapon": WeaponNames_MM1.HyperBomb, "damage": 10 },
-        { "weapon": WeaponNames_MM1.FireStorm, "damage": 2 },
-        { "weapon": WeaponNames_MM1.ThunderBeam, "damage": 1 }
-      ],
-      "strategy": "Jump right before he lands to avoid getting stunned. Shortly after he lands, he will throw a rock at you, so prepare to jump to avoid that as well.",
-      "stage": { "strategy": "" }
-    },
-    {
-      "name": "Ice Man",
-      "weaponDrop": WeaponNames_MM1.IceSlasher,
-      "weaponEffectiveness": [
-        { "weapon": WeaponNames_MM1.MegaBuster, "damage": 1 },
-        { "weapon": WeaponNames_MM1.RollingCutter, "damage": 2 },
-        { "weapon": WeaponNames_MM1.SuperArm, "damage": 0 },
-        { "weapon": WeaponNames_MM1.IceSlasher, "damage": 0 },
-        { "weapon": WeaponNames_MM1.HyperBomb, "damage": 4 },
-        { "weapon": WeaponNames_MM1.FireStorm, "damage": 1 },
-        { "weapon": WeaponNames_MM1.ThunderBeam, "damage": 10 }
+        { "weapon": WeaponNames_MM2.MegaBuster, "damage": "4" },
+        { "weapon": WeaponNames_MM2.MetalBlade, "damage": "0" },
+        { "weapon": WeaponNames_MM2.AirShooter, "damage": "0" },
+        { "weapon": WeaponNames_MM2.BubbleLead, "damage": "0" },
+        { "weapon": WeaponNames_MM2.QuickBoomerang, "damage": "4" },
+        { "weapon": WeaponNames_MM2.CrashBomber, "damage": "0" },
+        { "weapon": WeaponNames_MM2.TimeStopper, "damage": "0" },
+        { "weapon": WeaponNames_MM2.AtomicFire, "damage": "4, 12, 12" },
+        { "weapon": WeaponNames_MM2.LeafShield, "damage": "16" }
       ],
       "strategy": "",
       "stage": { "strategy": "" }
     },
     {
-      "name": "Bomb Man",
-      "weaponDrop": WeaponNames_MM1.HyperBomb,
+      "name": "Bubble Man",
+      "weaponDrop": WeaponNames_MM2.BubbleLead,
       "weaponEffectiveness": [
-        { "weapon": WeaponNames_MM1.MegaBuster, "damage": 2 },
-        { "weapon": WeaponNames_MM1.RollingCutter, "damage": 2 },
-        { "weapon": WeaponNames_MM1.SuperArm, "damage": 0 },
-        { "weapon": WeaponNames_MM1.IceSlasher, "damage": 0 },
-        { "weapon": WeaponNames_MM1.HyperBomb, "damage": 1 },
-        { "weapon": WeaponNames_MM1.FireStorm, "damage": 4 },
-        { "weapon": WeaponNames_MM1.ThunderBeam, "damage": 2 }
+        { "weapon": WeaponNames_MM2.MegaBuster, "damage": "2" },
+        { "weapon": WeaponNames_MM2.MetalBlade, "damage": "8" },
+        { "weapon": WeaponNames_MM2.AirShooter, "damage": "0" },
+        { "weapon": WeaponNames_MM2.BubbleLead, "damage": "0" },
+        { "weapon": WeaponNames_MM2.QuickBoomerang, "damage": "4" },
+        { "weapon": WeaponNames_MM2.CrashBomber, "damage": "4" },
+        { "weapon": WeaponNames_MM2.TimeStopper, "damage": "0" },
+        { "weapon": WeaponNames_MM2.AtomicFire, "damage": "0" },
+        { "weapon": WeaponNames_MM2.LeafShield, "damage": "0" }
       ],
       "strategy": "",
       "stage": { "strategy": "" }
     },
     {
-      "name": "Fire Man",
-      "weaponDrop": WeaponNames_MM1.FireStorm,
+      "name": "Quick Man",
+      "weaponDrop": WeaponNames_MM2.QuickBoomerang,
       "weaponEffectiveness": [
-        { "weapon": WeaponNames_MM1.MegaBuster, "damage": 2 },
-        { "weapon": WeaponNames_MM1.RollingCutter, "damage": 2 },
-        { "weapon": WeaponNames_MM1.SuperArm, "damage": 0 },
-        { "weapon": WeaponNames_MM1.IceSlasher, "damage": 4 },
-        { "weapon": WeaponNames_MM1.HyperBomb, "damage": 1 },
-        { "weapon": WeaponNames_MM1.FireStorm, "damage": 1 },
-        { "weapon": WeaponNames_MM1.ThunderBeam, "damage": 1 }
+        { "weapon": WeaponNames_MM2.MegaBuster, "damage": "4" },
+        { "weapon": WeaponNames_MM2.MetalBlade, "damage": "0" },
+        { "weapon": WeaponNames_MM2.AirShooter, "damage": "4" },
+        { "weapon": WeaponNames_MM2.BubbleLead, "damage": "0" },
+        { "weapon": WeaponNames_MM2.QuickBoomerang, "damage": "0" },
+        { "weapon": WeaponNames_MM2.CrashBomber, "damage": "8" },
+        { "weapon": WeaponNames_MM2.TimeStopper, "damage": "1 per seconds - 14 seconds" },
+        { "weapon": WeaponNames_MM2.AtomicFire, "damage": "4, 12, 20" },
+        { "weapon": WeaponNames_MM2.LeafShield, "damage": "0" }
       ],
       "strategy": "",
       "stage": { "strategy": "" }
     },
     {
-      "name": "Elec Man",
-      "weaponDrop": WeaponNames_MM1.ThunderBeam,
+      "name": "Crash Man",
+      "weaponDrop": WeaponNames_MM2.CrashBomber,
       "weaponEffectiveness": [
-        { "weapon": WeaponNames_MM1.MegaBuster, "damage": 1 },
-        { "weapon": WeaponNames_MM1.RollingCutter, "damage": 10 },
-        { "weapon": WeaponNames_MM1.SuperArm, "damage": 4 },
-        { "weapon": WeaponNames_MM1.IceSlasher, "damage": 0 },
-        { "weapon": WeaponNames_MM1.HyperBomb, "damage": 2 },
-        { "weapon": WeaponNames_MM1.FireStorm, "damage": 1 },
-        { "weapon": WeaponNames_MM1.ThunderBeam, "damage": 1 }
+        { "weapon": WeaponNames_MM2.MegaBuster, "damage": "2" },
+        { "weapon": WeaponNames_MM2.MetalBlade, "damage": "0" },
+        { "weapon": WeaponNames_MM2.AirShooter, "damage": "20" },
+        { "weapon": WeaponNames_MM2.BubbleLead, "damage": "2" },
+        { "weapon": WeaponNames_MM2.QuickBoomerang, "damage": "2" },
+        { "weapon": WeaponNames_MM2.CrashBomber, "damage": "0" },
+        { "weapon": WeaponNames_MM2.TimeStopper, "damage": "0" },
+        { "weapon": WeaponNames_MM2.AtomicFire, "damage": "2, 6, 12" },
+        { "weapon": WeaponNames_MM2.LeafShield, "damage": "0" }
+      ],
+      "strategy": "",
+      "stage": { "strategy": "" }
+    },
+    {
+      "name": "Flash Man",
+      "weaponDrop": WeaponNames_MM2.TimeStopper,
+      "weaponEffectiveness": [
+        { "weapon": WeaponNames_MM2.MegaBuster, "damage": "4" },
+        { "weapon": WeaponNames_MM2.MetalBlade, "damage": "8" },
+        { "weapon": WeaponNames_MM2.AirShooter, "damage": "0" },
+        { "weapon": WeaponNames_MM2.BubbleLead, "damage": "4" },
+        { "weapon": WeaponNames_MM2.QuickBoomerang, "damage": "0" },
+        { "weapon": WeaponNames_MM2.CrashBomber, "damage": "6" },
+        { "weapon": WeaponNames_MM2.TimeStopper, "damage": "0" },
+        { "weapon": WeaponNames_MM2.AtomicFire, "damage": "4, 12, 12" },
+        { "weapon": WeaponNames_MM2.LeafShield, "damage": "0" }
       ],
       "strategy": "",
       "stage": {
-        "strategy": "It's recommended to have the Super Arm or Thunder Beam before going to this stage in order to obtain the Magent Beam located here."
+        "strategy": ""
+      }
+    },
+    {
+      "name": "Heat Man",
+      "weaponDrop": WeaponNames_MM2.AtomicFire,
+      "weaponEffectiveness": [
+        { "weapon": WeaponNames_MM2.MegaBuster, "damage": "4" },
+        { "weapon": WeaponNames_MM2.MetalBlade, "damage": "2" },
+        { "weapon": WeaponNames_MM2.AirShooter, "damage": "4" },
+        { "weapon": WeaponNames_MM2.BubbleLead, "damage": "12" },
+        { "weapon": WeaponNames_MM2.QuickBoomerang, "damage": "4" },
+        { "weapon": WeaponNames_MM2.CrashBomber, "damage": "+" },
+        { "weapon": WeaponNames_MM2.TimeStopper, "damage": "0" },
+        { "weapon": WeaponNames_MM2.AtomicFire, "damage": "+" },
+        { "weapon": WeaponNames_MM2.LeafShield, "damage": "0" }
+      ],
+      "strategy": "",
+      "stage": {
+        "strategy": ""
+      }
+    },
+    {
+      "name": "Wood Man",
+      "weaponDrop": WeaponNames_MM2.LeafShield,
+      "weaponEffectiveness": [
+        { "weapon": WeaponNames_MM2.MegaBuster, "damage": "2" },
+        { "weapon": WeaponNames_MM2.MetalBlade, "damage": "4" },
+        { "weapon": WeaponNames_MM2.AirShooter, "damage": "8" },
+        { "weapon": WeaponNames_MM2.BubbleLead, "damage": "0" },
+        { "weapon": WeaponNames_MM2.QuickBoomerang, "damage": "0" },
+        { "weapon": WeaponNames_MM2.CrashBomber, "damage": "4" },
+        { "weapon": WeaponNames_MM2.TimeStopper, "damage": "0" },
+        { "weapon": WeaponNames_MM2.AtomicFire, "damage": "2, 6, 28" },
+        { "weapon": WeaponNames_MM2.LeafShield, "damage": "+" }
+      ],
+      "strategy": "",
+      "stage": {
+        "strategy": ""
       }
     }
-
   ],
   "weapons": [
     {
-      "name": WeaponNames_MM1.MegaBuster,
-      "notes": "This weapon can only damage bosses from behind (if effective) when fighting them on their stage."
+      "name": WeaponNames_MM2.MegaBuster,
+      "notes": ""
     },
-    { "name": WeaponNames_MM1.RollingCutter },
-    { "name": WeaponNames_MM1.SuperArm },
-    { "name": WeaponNames_MM1.IceSlasher },
-    { "name": WeaponNames_MM1.HyperBomb },
-    { "name": WeaponNames_MM1.FireStorm }
+    { "name": WeaponNames_MM2.MetalBlade },
+    { "name": WeaponNames_MM2.AirShooter },
+    { "name": WeaponNames_MM2.BubbleLead },
+    { "name": WeaponNames_MM2.QuickBoomerang },
+    { "name": WeaponNames_MM2.CrashBomber },
+    { "name": WeaponNames_MM2.TimeStopper },
+    { "name": WeaponNames_MM2.AtomicFire },
+    { "name": WeaponNames_MM2.LeafShield }
   ]
 }
 
