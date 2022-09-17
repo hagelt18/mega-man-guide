@@ -67,7 +67,7 @@ const game: Game = {
         { "weapon": WeaponNames_MM2.BubbleLead, "damage": "0" },
         { "weapon": WeaponNames_MM2.QuickBoomerang, "damage": "0" },
         { "weapon": WeaponNames_MM2.CrashBomber, "damage": "8" },
-        { "weapon": WeaponNames_MM2.TimeStopper, "damage": "1 per seconds - 14 seconds" },
+        { "weapon": WeaponNames_MM2.TimeStopper, "damage": "1 per seconds for 14 seconds" },
         { "weapon": WeaponNames_MM2.AtomicFire, "damage": "4, 12, 20" },
         { "weapon": WeaponNames_MM2.LeafShield, "damage": "0" }
       ],
@@ -141,6 +141,139 @@ const game: Game = {
         { "weapon": WeaponNames_MM2.CrashBomber, "damage": "4" },
         { "weapon": WeaponNames_MM2.TimeStopper, "damage": "0" },
         { "weapon": WeaponNames_MM2.AtomicFire, "damage": "2, 6, 28" },
+        { "weapon": WeaponNames_MM2.LeafShield, "damage": "+" }
+      ],
+      "strategy": "",
+      "stage": {
+        "strategy": ""
+      }
+    },
+    {
+      "name": "Mecha Dragon",
+      "weaponDrop": "NONE",
+      "weaponEffectiveness": [
+        { "weapon": WeaponNames_MM2.MegaBuster, "damage": "2" },
+        { "weapon": WeaponNames_MM2.MetalBlade, "damage": "0" },
+        { "weapon": WeaponNames_MM2.AirShooter, "damage": "0" },
+        { "weapon": WeaponNames_MM2.BubbleLead, "damage": "0" },
+        { "weapon": WeaponNames_MM2.QuickBoomerang, "damage": "2" },
+        { "weapon": WeaponNames_MM2.CrashBomber, "damage": "2" },
+        { "weapon": WeaponNames_MM2.TimeStopper, "damage": "0" },
+        { "weapon": WeaponNames_MM2.AtomicFire, "damage": "2, 6, 16" },
+        { "weapon": WeaponNames_MM2.LeafShield, "damage": "0" }
+      ],
+      "strategy": "",
+      "stage": {
+        "strategy": ""
+      }
+    },
+    {
+      "name": "Picopico-kun",
+      "weaponDrop": "NONE",
+      "weaponEffectiveness": [
+        { "weapon": WeaponNames_MM2.MegaBuster, "damage": "1" },
+        { "weapon": WeaponNames_MM2.MetalBlade, "damage": "1" },
+        { "weapon": WeaponNames_MM2.AirShooter, "damage": "0" },
+        { "weapon": WeaponNames_MM2.BubbleLead, "damage": "2" },
+        { "weapon": WeaponNames_MM2.QuickBoomerang, "damage": "1" },
+        { "weapon": WeaponNames_MM2.CrashBomber, "damage": "0" },
+        { "weapon": WeaponNames_MM2.TimeStopper, "damage": "0" },
+        { "weapon": WeaponNames_MM2.AtomicFire, "damage": "1, 2, 2" },
+        { "weapon": WeaponNames_MM2.LeafShield, "damage": "0" }
+      ],
+      "strategy": "",
+      "stage": {
+        "strategy": ""
+      }
+    },
+    {
+      "name": "Guts Tank",
+      "weaponDrop": "NONE",
+      "weaponEffectiveness": [
+        { "weapon": WeaponNames_MM2.MegaBuster, "damage": "2" },
+        { "weapon": WeaponNames_MM2.MetalBlade, "damage": "0" },
+        { "weapon": WeaponNames_MM2.AirShooter, "damage": "0" },
+        { "weapon": WeaponNames_MM2.BubbleLead, "damage": "2" },
+        { "weapon": WeaponNames_MM2.QuickBoomerang, "damage": "4" },
+        { "weapon": WeaponNames_MM2.CrashBomber, "damage": "2" },
+        { "weapon": WeaponNames_MM2.TimeStopper, "damage": "0" },
+        { "weapon": WeaponNames_MM2.AtomicFire, "damage": "2, 6, 16" },
+        { "weapon": WeaponNames_MM2.LeafShield, "damage": "0" }
+      ],
+      "strategy": "",
+      "stage": {
+        "strategy": ""
+      }
+    },
+    {
+      "name": "BooBeam Trap",
+      "weaponDrop": "NONE",
+      "weaponEffectiveness": [
+        { "weapon": WeaponNames_MM2.MegaBuster, "damage": "0" },
+        { "weapon": WeaponNames_MM2.MetalBlade, "damage": "0" },
+        { "weapon": WeaponNames_MM2.AirShooter, "damage": "0" },
+        { "weapon": WeaponNames_MM2.BubbleLead, "damage": "0" },
+        { "weapon": WeaponNames_MM2.QuickBoomerang, "damage": "0" },
+        { "weapon": WeaponNames_MM2.CrashBomber, "damage": "6" },
+        { "weapon": WeaponNames_MM2.TimeStopper, "damage": "0*" },
+        { "weapon": WeaponNames_MM2.AtomicFire, "damage": "0, 0, 0" },
+        { "weapon": WeaponNames_MM2.LeafShield, "damage": "0" }
+      ],
+      "strategy": "",
+      "stage": {
+        "strategy": ""
+      }
+    },
+    {
+      "name": "Wily Machine 1, 1st Phase",
+      "weaponDrop": "NONE",
+      "weaponEffectiveness": [
+        { "weapon": WeaponNames_MM2.MegaBuster, "damage": "2" },
+        { "weapon": WeaponNames_MM2.MetalBlade, "damage": "2" },
+        { "weapon": WeaponNames_MM2.AirShooter, "damage": "0" },
+        { "weapon": WeaponNames_MM2.BubbleLead, "damage": "0" },
+        { "weapon": WeaponNames_MM2.QuickBoomerang, "damage": "0" },
+        { "weapon": WeaponNames_MM2.CrashBomber, "damage": "8" },
+        { "weapon": WeaponNames_MM2.TimeStopper, "damage": "0" },
+        { "weapon": WeaponNames_MM2.AtomicFire, "damage": "2, 6, 28" },
+        { "weapon": WeaponNames_MM2.LeafShield, "damage": "0" }
+      ],
+      "strategy": "",
+      "stage": {
+        "strategy": ""
+      }
+    },
+    {
+      "name": "Wily Machine 1, 2st Phase",
+      "weaponDrop": "NONE",
+      "weaponEffectiveness": [
+        { "weapon": WeaponNames_MM2.MegaBuster, "damage": "2" },
+        { "weapon": WeaponNames_MM2.MetalBlade, "damage": "2" },
+        { "weapon": WeaponNames_MM2.AirShooter, "damage": "2" },
+        { "weapon": WeaponNames_MM2.BubbleLead, "damage": "0" },
+        { "weapon": WeaponNames_MM2.QuickBoomerang, "damage": "2" },
+        { "weapon": WeaponNames_MM2.CrashBomber, "damage": "8" },
+        { "weapon": WeaponNames_MM2.TimeStopper, "damage": "8" },
+        { "weapon": WeaponNames_MM2.AtomicFire, "damage": "0, 0, 0" },
+        { "weapon": WeaponNames_MM2.LeafShield, "damage": "+" }
+      ],
+      "strategy": "",
+      "stage": {
+        "strategy": ""
+      }
+    },
+    {
+      "name": "Alien",
+      "weaponDrop": "NONE",
+      "weaponEffectiveness": [
+        { "weapon": WeaponNames_MM2.MegaBuster, "damage": "+" },
+        { "weapon": WeaponNames_MM2.MetalBlade, "damage": "+" },
+        { "weapon": WeaponNames_MM2.AirShooter, "damage": "+" },
+        { "weapon": WeaponNames_MM2.BubbleLead, "damage": "2" },
+        { "weapon": WeaponNames_MM2.QuickBoomerang, "damage": "+" },
+        { "weapon": WeaponNames_MM2.CrashBomber, "damage": "+" },
+        { "weapon": WeaponNames_MM2.TimeStopper, "damage": "+" },
+        { "weapon": WeaponNames_MM2.AtomicFire, "damage": "+, +, +" },
         { "weapon": WeaponNames_MM2.LeafShield, "damage": "+" }
       ],
       "strategy": "",
