@@ -147,6 +147,329 @@ const game: Game = {
       "stage": {
         "strategy": ""
       }
+    },
+    {
+      "name": "Proto Man",
+      "weaponDrop": "NONE",
+      "weaponEffectiveness": [
+        { "weapon": WeaponNames_MM3.MegaBuster, "damage": "1" },
+        { "weapon": WeaponNames_MM3.NeedleCannon, "damage": "1" },
+        { "weapon": WeaponNames_MM3.MagnetMissile, "damage": "2" },
+        { "weapon": WeaponNames_MM3.GeminiLaser, "damage": "1" },
+        { "weapon": WeaponNames_MM3.HardKnuckle, "damage": "4" },
+        { "weapon": WeaponNames_MM3.TopSpin, "damage": "0" },
+        { "weapon": WeaponNames_MM3.SearchSnake, "damage": "0" },
+        { "weapon": WeaponNames_MM3.SparkShock, "damage": "0" },
+        { "weapon": WeaponNames_MM3.ShadowBlade, "damage": "2" }
+      ],
+      "strategy": "",
+      "stage": {
+        "strategy": ""
+      }
+    },
+    {
+      "name": "Doc Robot - Metal Man",
+      "weaponDrop": "NONE",
+      "weaponEffectiveness": [
+        { "weapon": WeaponNames_MM3.MegaBuster, "damage": "1" },
+        { "weapon": WeaponNames_MM3.NeedleCannon, "damage": "0" },
+        { "weapon": WeaponNames_MM3.MagnetMissile, "damage": "4" },
+        { "weapon": WeaponNames_MM3.GeminiLaser, "damage": "1" },
+        { "weapon": WeaponNames_MM3.HardKnuckle, "damage": "4" },
+        { "weapon": WeaponNames_MM3.TopSpin, "damage": "0" },
+        { "weapon": WeaponNames_MM3.SearchSnake, "damage": "0" },
+        { "weapon": WeaponNames_MM3.SparkShock, "damage": "2" },
+        { "weapon": WeaponNames_MM3.ShadowBlade, "damage": "2" }
+      ],
+      "strategy": "",
+      "stage": {
+        "strategy": ""
+      }
+    },
+    {
+      "name": "Doc Robot - Quick Man",
+      "weaponDrop": "NONE",
+      "weaponEffectiveness": [
+        { "weapon": WeaponNames_MM3.MegaBuster, "damage": "1" },
+        { "weapon": WeaponNames_MM3.NeedleCannon, "damage": "1" },
+        { "weapon": WeaponNames_MM3.MagnetMissile, "damage": "2" },
+        { "weapon": WeaponNames_MM3.GeminiLaser, "damage": "4" },
+        { "weapon": WeaponNames_MM3.HardKnuckle, "damage": "1" },
+        { "weapon": WeaponNames_MM3.TopSpin, "damage": "1" },
+        { "weapon": WeaponNames_MM3.SearchSnake, "damage": "4" },
+        { "weapon": WeaponNames_MM3.SparkShock, "damage": "1" },
+        { "weapon": WeaponNames_MM3.ShadowBlade, "damage": "2" }
+      ],
+      "strategy": "",
+      "stage": {
+        "strategy": ""
+      }
+    },
+    {
+      "name": "Doc Robot - Air Man",
+      "weaponDrop": "NONE",
+      "weaponEffectiveness": [
+        { "weapon": WeaponNames_MM3.MegaBuster, "damage": "2" },
+        { "weapon": WeaponNames_MM3.NeedleCannon, "damage": "1" },
+        { "weapon": WeaponNames_MM3.MagnetMissile, "damage": "4" },
+        { "weapon": WeaponNames_MM3.GeminiLaser, "damage": "2" },
+        { "weapon": WeaponNames_MM3.HardKnuckle, "damage": "2" },
+        { "weapon": WeaponNames_MM3.TopSpin, "damage": "1" },
+        { "weapon": WeaponNames_MM3.SearchSnake, "damage": "2" },
+        { "weapon": WeaponNames_MM3.SparkShock, "damage": "4" },
+        { "weapon": WeaponNames_MM3.ShadowBlade, "damage": "0" }
+      ],
+      "strategy": "",
+      "stage": {
+        "strategy": ""
+      }
+    },
+    {
+      "name": "Doc Robot - Crash Man",
+      "weaponDrop": "NONE",
+      "weaponEffectiveness": [
+        { "weapon": WeaponNames_MM3.MegaBuster, "damage": "2" },
+        { "weapon": WeaponNames_MM3.NeedleCannon, "damage": "2" },
+        { "weapon": WeaponNames_MM3.MagnetMissile, "damage": "1" },
+        { "weapon": WeaponNames_MM3.GeminiLaser, "damage": "0" },
+        { "weapon": WeaponNames_MM3.HardKnuckle, "damage": "7" },
+        { "weapon": WeaponNames_MM3.TopSpin, "damage": "4" },
+        { "weapon": WeaponNames_MM3.SearchSnake, "damage": "1" },
+        { "weapon": WeaponNames_MM3.SparkShock, "damage": "1" },
+        { "weapon": WeaponNames_MM3.ShadowBlade, "damage": "1" }
+      ],
+      "strategy": "",
+      "stage": {
+        "strategy": ""
+      }
+    },
+    {
+      "name": "Doc Robot - Flash Man",
+      "weaponDrop": "NONE",
+      "weaponEffectiveness": [
+        { "weapon": WeaponNames_MM3.MegaBuster, "damage": "1" },
+        { "weapon": WeaponNames_MM3.NeedleCannon, "damage": "4" },
+        { "weapon": WeaponNames_MM3.MagnetMissile, "damage": "1" },
+        { "weapon": WeaponNames_MM3.GeminiLaser, "damage": "4" },
+        { "weapon": WeaponNames_MM3.HardKnuckle, "damage": "0" },
+        { "weapon": WeaponNames_MM3.TopSpin, "damage": "1" },
+        { "weapon": WeaponNames_MM3.SearchSnake, "damage": "1" },
+        { "weapon": WeaponNames_MM3.SparkShock, "damage": "0" },
+        { "weapon": WeaponNames_MM3.ShadowBlade, "damage": "2" }
+      ],
+      "strategy": "",
+      "stage": {
+        "strategy": ""
+      }
+    },
+    {
+      "name": "Doc Robot - Bubble Man",
+      "weaponDrop": "NONE",
+      "weaponEffectiveness": [
+        { "weapon": WeaponNames_MM3.MegaBuster, "damage": "1" },
+        { "weapon": WeaponNames_MM3.NeedleCannon, "damage": "2" },
+        { "weapon": WeaponNames_MM3.MagnetMissile, "damage": "0" },
+        { "weapon": WeaponNames_MM3.GeminiLaser, "damage": "1" },
+        { "weapon": WeaponNames_MM3.HardKnuckle, "damage": "2" },
+        { "weapon": WeaponNames_MM3.TopSpin, "damage": "1" },
+        { "weapon": WeaponNames_MM3.SearchSnake, "damage": "0" },
+        { "weapon": WeaponNames_MM3.SparkShock, "damage": "4" },
+        { "weapon": WeaponNames_MM3.ShadowBlade, "damage": "4" }
+      ],
+      "strategy": "",
+      "stage": {
+        "strategy": ""
+      }
+    },
+    {
+      "name": "Doc Robot - Wood Man",
+      "weaponDrop": "NONE",
+      "weaponEffectiveness": [
+        { "weapon": WeaponNames_MM3.MegaBuster, "damage": "1" },
+        { "weapon": WeaponNames_MM3.NeedleCannon, "damage": "4" },
+        { "weapon": WeaponNames_MM3.MagnetMissile, "damage": "0" },
+        { "weapon": WeaponNames_MM3.GeminiLaser, "damage": "1" },
+        { "weapon": WeaponNames_MM3.HardKnuckle, "damage": "2" },
+        { "weapon": WeaponNames_MM3.TopSpin, "damage": "2" },
+        { "weapon": WeaponNames_MM3.SearchSnake, "damage": "4" },
+        { "weapon": WeaponNames_MM3.SparkShock, "damage": "1" },
+        { "weapon": WeaponNames_MM3.ShadowBlade, "damage": "2" }
+      ],
+      "strategy": "",
+      "stage": {
+        "strategy": ""
+      }
+    },
+    {
+      "name": "Doc Robot - Heat Man",
+      "weaponDrop": "NONE",
+      "weaponEffectiveness": [
+        { "weapon": WeaponNames_MM3.MegaBuster, "damage": "1" },
+        { "weapon": WeaponNames_MM3.NeedleCannon, "damage": "2" },
+        { "weapon": WeaponNames_MM3.MagnetMissile, "damage": "1" },
+        { "weapon": WeaponNames_MM3.GeminiLaser, "damage": "1" },
+        { "weapon": WeaponNames_MM3.HardKnuckle, "damage": "2" },
+        { "weapon": WeaponNames_MM3.TopSpin, "damage": "7" },
+        { "weapon": WeaponNames_MM3.SearchSnake, "damage": "1" },
+        { "weapon": WeaponNames_MM3.SparkShock, "damage": "1" },
+        { "weapon": WeaponNames_MM3.ShadowBlade, "damage": "4" }
+      ],
+      "strategy": "",
+      "stage": {
+        "strategy": ""
+      }
+    },
+    {
+      "name": "Break Man",
+      "weaponDrop": "NONE",
+      "weaponEffectiveness": [
+        { "weapon": WeaponNames_MM3.MegaBuster, "damage": "1" },
+        { "weapon": WeaponNames_MM3.NeedleCannon, "damage": "0" },
+        { "weapon": WeaponNames_MM3.MagnetMissile, "damage": "0" },
+        { "weapon": WeaponNames_MM3.GeminiLaser, "damage": "0" },
+        { "weapon": WeaponNames_MM3.HardKnuckle, "damage": "0" },
+        { "weapon": WeaponNames_MM3.TopSpin, "damage": "0" },
+        { "weapon": WeaponNames_MM3.SearchSnake, "damage": "0" },
+        { "weapon": WeaponNames_MM3.SparkShock, "damage": "0" },
+        { "weapon": WeaponNames_MM3.ShadowBlade, "damage": "0" }
+      ],
+      "strategy": "",
+      "stage": {
+        "strategy": ""
+      }
+    },
+    {
+      "name": "Kamegoro Maker",
+      "weaponDrop": "NONE",
+      "weaponEffectiveness": [
+        { "weapon": WeaponNames_MM3.MegaBuster, "damage": "1" },
+        { "weapon": WeaponNames_MM3.NeedleCannon, "damage": "1" },
+        { "weapon": WeaponNames_MM3.MagnetMissile, "damage": "1" },
+        { "weapon": WeaponNames_MM3.GeminiLaser, "damage": "1" },
+        { "weapon": WeaponNames_MM3.HardKnuckle, "damage": "3" },
+        { "weapon": WeaponNames_MM3.TopSpin, "damage": "3" },
+        { "weapon": WeaponNames_MM3.SearchSnake, "damage": "3" },
+        { "weapon": WeaponNames_MM3.SparkShock, "damage": "0" },
+        { "weapon": WeaponNames_MM3.ShadowBlade, "damage": "3" }
+      ],
+      "strategy": "",
+      "stage": {
+        "strategy": ""
+      }
+    },
+    {
+      "name": "Yellow Devil MK-II",
+      "weaponDrop": "NONE",
+      "weaponEffectiveness": [
+        { "weapon": WeaponNames_MM3.MegaBuster, "damage": "1" },
+        { "weapon": WeaponNames_MM3.NeedleCannon, "damage": "1" },
+        { "weapon": WeaponNames_MM3.MagnetMissile, "damage": "1" },
+        { "weapon": WeaponNames_MM3.GeminiLaser, "damage": "1" },
+        { "weapon": WeaponNames_MM3.HardKnuckle, "damage": "5" },
+        { "weapon": WeaponNames_MM3.TopSpin, "damage": "0" },
+        { "weapon": WeaponNames_MM3.SearchSnake, "damage": "0" },
+        { "weapon": WeaponNames_MM3.SparkShock, "damage": "0" },
+        { "weapon": WeaponNames_MM3.ShadowBlade, "damage": "3" }
+      ],
+      "strategy": "",
+      "stage": {
+        "strategy": ""
+      }
+    },
+    {
+      "name": "Holograph Mega Mans",
+      "weaponDrop": "NONE",
+      "weaponEffectiveness": [
+        { "weapon": WeaponNames_MM3.MegaBuster, "damage": "1" },
+        { "weapon": WeaponNames_MM3.NeedleCannon, "damage": "1" },
+        { "weapon": WeaponNames_MM3.MagnetMissile, "damage": "0" },
+        { "weapon": WeaponNames_MM3.GeminiLaser, "damage": "1" },
+        { "weapon": WeaponNames_MM3.HardKnuckle, "damage": "4" },
+        { "weapon": WeaponNames_MM3.TopSpin, "damage": "7*" },
+        { "weapon": WeaponNames_MM3.SearchSnake, "damage": "7" },
+        { "weapon": WeaponNames_MM3.SparkShock, "damage": "0" },
+        { "weapon": WeaponNames_MM3.ShadowBlade, "damage": "2" }
+      ],
+      "strategy": "",
+      "stage": {
+        "strategy": ""
+      }
+    },
+    {
+      "name": "Wily Machine 3 - 1st Phase",
+      "weaponDrop": "NONE",
+      "weaponEffectiveness": [
+        { "weapon": WeaponNames_MM3.MegaBuster, "damage": "1" },
+        { "weapon": WeaponNames_MM3.NeedleCannon, "damage": "0" },
+        { "weapon": WeaponNames_MM3.MagnetMissile, "damage": "1" },
+        { "weapon": WeaponNames_MM3.GeminiLaser, "damage": "0" },
+        { "weapon": WeaponNames_MM3.HardKnuckle, "damage": "7" },
+        { "weapon": WeaponNames_MM3.TopSpin, "damage": "0" },
+        { "weapon": WeaponNames_MM3.SearchSnake, "damage": "4" },
+        { "weapon": WeaponNames_MM3.SparkShock, "damage": "7" },
+        { "weapon": WeaponNames_MM3.ShadowBlade, "damage": "2" }
+      ],
+      "strategy": "",
+      "stage": {
+        "strategy": ""
+      }
+    },
+    {
+      "name": "Wily Machine 3 - 2st Phase",
+      "weaponDrop": "NONE",
+      "weaponEffectiveness": [
+        { "weapon": WeaponNames_MM3.MegaBuster, "damage": "1" },
+        { "weapon": WeaponNames_MM3.NeedleCannon, "damage": "1" },
+        { "weapon": WeaponNames_MM3.MagnetMissile, "damage": "2" },
+        { "weapon": WeaponNames_MM3.GeminiLaser, "damage": "1" },
+        { "weapon": WeaponNames_MM3.HardKnuckle, "damage": "7" },
+        { "weapon": WeaponNames_MM3.TopSpin, "damage": "0" },
+        { "weapon": WeaponNames_MM3.SearchSnake, "damage": "4" },
+        { "weapon": WeaponNames_MM3.SparkShock, "damage": "0" },
+        { "weapon": WeaponNames_MM3.ShadowBlade, "damage": "2" }
+      ],
+      "strategy": "",
+      "stage": {
+        "strategy": ""
+      }
+    },
+    {
+      "name": "Gamma - 1st Phase",
+      "weaponDrop": "NONE",
+      "weaponEffectiveness": [
+        { "weapon": WeaponNames_MM3.MegaBuster, "damage": "0" },
+        { "weapon": WeaponNames_MM3.NeedleCannon, "damage": "0" },
+        { "weapon": WeaponNames_MM3.MagnetMissile, "damage": "0" },
+        { "weapon": WeaponNames_MM3.GeminiLaser, "damage": "0" },
+        { "weapon": WeaponNames_MM3.HardKnuckle, "damage": "4" },
+        { "weapon": WeaponNames_MM3.TopSpin, "damage": "0" },
+        { "weapon": WeaponNames_MM3.SearchSnake, "damage": "0" },
+        { "weapon": WeaponNames_MM3.SparkShock, "damage": "0" },
+        { "weapon": WeaponNames_MM3.ShadowBlade, "damage": "2" }
+      ],
+      "strategy": "",
+      "stage": {
+        "strategy": ""
+      }
+    },
+    {
+      "name": "Gamma - 2st Phase",
+      "weaponDrop": "NONE",
+      "weaponEffectiveness": [
+        { "weapon": WeaponNames_MM3.MegaBuster, "damage": "0" },
+        { "weapon": WeaponNames_MM3.NeedleCannon, "damage": "0" },
+        { "weapon": WeaponNames_MM3.MagnetMissile, "damage": "0" },
+        { "weapon": WeaponNames_MM3.GeminiLaser, "damage": "0" },
+        { "weapon": WeaponNames_MM3.HardKnuckle, "damage": "0" },
+        { "weapon": WeaponNames_MM3.TopSpin, "damage": "2*" },
+        { "weapon": WeaponNames_MM3.SearchSnake, "damage": "2" },
+        { "weapon": WeaponNames_MM3.SparkShock, "damage": "0" },
+        { "weapon": WeaponNames_MM3.ShadowBlade, "damage": "0" }
+      ],
+      "strategy": "",
+      "stage": {
+        "strategy": ""
+      }
     }
   ],
   "weapons": [
