@@ -21,7 +21,7 @@ export interface Boss {
 
 export interface BossWeaponEffectiveness {
   weapon: string;
-  damage: number;
+  damage: string;
   notes?: string;
 }
 
